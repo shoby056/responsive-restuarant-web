@@ -17,40 +17,42 @@ export default function Contact() {
         </div>
 
         <div className="contact-right">
-          <h1 className="form-heading">Contact Form</h1>
-          <label htmlFor="name">Name</label>
-          <br />
-          <input type="text" id="name" name="name" />
-          <br />
+        <form>
+  <label htmlFor="name">Name</label>
+  <br />
+  <input type="text" id="name" name="name" />
+  <br />
 
-          <label htmlFor="email">Email</label>
-          <br />
-          <input type="email" id="email" name="email" />
-          <br />
+  <label htmlFor="email">Email</label>
+  <br />
+  <input type="email" id="email" name="email" />
+  <br />
 
-          <label htmlFor="number">Number</label>
-          <br />
-          <input type="number" id="number" name="number" />
-          <br />
-          <button className="btn">Submit</button>
+  <label htmlFor="number">Number</label>
+  <br />
+  <input type="number" id="number" name="number" />
+  <br />
+  <button type="submit" className="btn">Submit</button>
+</form>
+
         </div>
       </div>
 
       <div className="icons">
-        <Link href="https://www.linkedin.com/in/muhammad-shoaib-41927627a/">
-          <i className="fa-brands fa-linkedin"></i> LinkedIn
+        <Link href="https://www.linkedin.com/in/muhammad-shoaib-41927627a/"   className="abcd">
+          <i className="fa-brands fa-linkedin" aria-hidden="true"></i> LinkedIn
         </Link>
 
-        <Link href="https://github.com/shoby056">
-          <i className="fa-brands fa-github"></i> Github
+        <Link href="https://github.com/shoby056" className="abcd">
+          <i className="fa-brands fa-github" aria-hidden="true"></i> Github
         </Link>
 
-        <Link href="https://www.facebook.com/shoby056">
-          <i className="fa-brands fa-facebook"></i> Facebook
+        <Link href="https://www.facebook.com/shoby056" className="abcd">
+          <i className="fa-brands fa-facebook" aria-hidden="true"></i> Facebook
         </Link>
 
-        <Link href="mailto:shkshoaib056@gmail.com">
-          <i className="fa-solid fa-envelope"></i> shkshoaib056@gmail.com
+        <Link href="mailto:shkshoaib056@gmail.com" className="abcd">
+          <i className="fa-solid fa-envelope" aria-hidden="true"></i> shkshoaib056@gmail.com
         </Link>
       </div>
 
